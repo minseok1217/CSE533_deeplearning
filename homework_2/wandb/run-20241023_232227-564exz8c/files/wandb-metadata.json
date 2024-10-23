@@ -1,0 +1,31 @@
+{
+  "os":  "Linux-5.15.0-97-generic-x86_64-with-glibc2.31",
+  "python":  "3.10.14",
+  "startedAt":  "2024-10-23T14:22:27.630041Z",
+  "program":  "/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/hw1_3.ipynb",
+  "git":  {
+    "remote":  "https://github.com/linklab/link_dl.git",
+    "commit":  "caba215c3263b47339785776fc86ab54e8cd6e43"
+  },
+  "email":  "ping5432121@gmail.com",
+  "root":  "/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2",
+  "host":  "DICE-53",
+  "username":  "cv-07",
+  "executable":  "/data/2_data_server/cv-07/anaconda3/envs/link_dl/bin/python",
+  "codePathLocal":  "hw1_3.ipynb",
+  "cpu_count":  32,
+  "cpu_count_logical":  64,
+  "disk":  {
+    "/":  {
+      "total":  "1967317549056",
+      "used":  "335053074432"
+    }
+  },
+  "memory":  {
+    "total":  "135011651584"
+  },
+  "cpu":  {
+    "count":  32,
+    "countLogical":  64
+  }
+}

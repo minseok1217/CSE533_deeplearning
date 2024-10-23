@@ -1,0 +1,14 @@
+{"time":"2024-10-23T23:11:13.035165258+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T23:11:13.035193392+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_231112-scyj2o6i/logs/debug-core.log"}
+{"time":"2024-10-23T23:11:13.03536084+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T23:11:13.044364194+09:00","level":"INFO","msg":"created new stream","id":"scyj2o6i"}
+{"time":"2024-10-23T23:11:13.044394502+09:00","level":"INFO","msg":"stream: started","id":"scyj2o6i"}
+{"time":"2024-10-23T23:11:13.044440199+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"scyj2o6i"}}
+{"time":"2024-10-23T23:11:13.044447543+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"scyj2o6i"}}
+{"time":"2024-10-23T23:11:13.044484844+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"scyj2o6i"}}
+{"time":"2024-10-23T23:11:13.50973617+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T23:11:13.5127925+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T23:11:27.042765436+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T23:11:27.045214151+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T23:11:28.040117613+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T23:11:32.044729062+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

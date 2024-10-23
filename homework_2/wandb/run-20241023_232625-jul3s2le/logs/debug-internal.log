@@ -1,0 +1,8 @@
+{"time":"2024-10-23T23:26:25.636322197+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T23:26:25.63635005+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232625-jul3s2le/logs/debug-core.log"}
+{"time":"2024-10-23T23:26:25.636511958+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T23:26:25.644251258+09:00","level":"INFO","msg":"created new stream","id":"jul3s2le"}
+{"time":"2024-10-23T23:26:25.644279271+09:00","level":"INFO","msg":"stream: started","id":"jul3s2le"}
+{"time":"2024-10-23T23:26:25.644310681+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"jul3s2le"}}
+{"time":"2024-10-23T23:26:25.644318255+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"jul3s2le"}}
+{"time":"2024-10-23T23:26:25.644355526+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"jul3s2le"}}

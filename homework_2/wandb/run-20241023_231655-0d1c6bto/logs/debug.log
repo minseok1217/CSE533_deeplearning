@@ -1,0 +1,318 @@
+2024-10-23 23:16:55,295 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 23:16:55,296 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Configure stats pid to 3109352
+2024-10-23 23:16:55,297 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /home/cv-07/.config/wandb/settings
+2024-10-23 23:16:55,298 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/settings
+2024-10-23 23:16:55,299 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 23:16:55,300 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 23:16:55,301 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-23 23:16:55,302 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 23:16:55,303 INFO    MainThread:3109352 [wandb_init.py:_log_setup():532] Logging user logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_231655-0d1c6bto/logs/debug.log
+2024-10-23 23:16:55,303 INFO    MainThread:3109352 [wandb_init.py:_log_setup():533] Logging internal logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_231655-0d1c6bto/logs/debug-internal.log
+2024-10-23 23:16:55,304 INFO    MainThread:3109352 [wandb_init.py:init():617] calling init triggers
+2024-10-23 23:16:55,305 INFO    MainThread:3109352 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-23 23:16:55,311 INFO    MainThread:3109352 [wandb_init.py:init():667] starting backend
+2024-10-23 23:16:55,312 INFO    MainThread:3109352 [wandb_init.py:init():671] sending inform_init request
+2024-10-23 23:16:55,314 INFO    MainThread:3109352 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-23 23:16:55,315 INFO    MainThread:3109352 [wandb_init.py:init():684] backend started and connected
+2024-10-23 23:16:55,319 INFO    MainThread:3109352 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-23 23:16:55,320 INFO    MainThread:3109352 [wandb_init.py:init():779] updated telemetry
+2024-10-23 23:16:55,362 INFO    MainThread:3109352 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-23 23:18:11,882 WARNING MainThread:3109352 [wandb_init.py:init():1256] interrupted
+Traceback (most recent call last):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+    return wi.init()
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 815, in init
+    result = run_init_handle.wait(
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-10-23 23:18:13,641 INFO    MainThread:3109352 [wandb_settings.py:_apply_login():1970] Applying login settings: {}
+2024-10-23 23:18:13,676 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 23:18:13,677 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Configure stats pid to 3109352
+2024-10-23 23:18:13,678 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /home/cv-07/.config/wandb/settings
+2024-10-23 23:18:13,679 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/settings
+2024-10-23 23:18:13,680 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 23:18:13,681 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 23:18:13,682 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-23 23:18:13,683 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 23:18:13,684 INFO    MainThread:3109352 [wandb_init.py:_log_setup():532] Logging user logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_231813-0xqblj8x/logs/debug.log
+2024-10-23 23:18:13,685 INFO    MainThread:3109352 [wandb_init.py:_log_setup():533] Logging internal logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_231813-0xqblj8x/logs/debug-internal.log
+2024-10-23 23:18:13,686 INFO    MainThread:3109352 [wandb_init.py:init():617] calling init triggers
+2024-10-23 23:18:13,687 INFO    MainThread:3109352 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-23 23:18:13,689 INFO    MainThread:3109352 [wandb_init.py:init():667] starting backend
+2024-10-23 23:18:13,690 INFO    MainThread:3109352 [wandb_init.py:init():671] sending inform_init request
+2024-10-23 23:18:13,692 INFO    MainThread:3109352 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-23 23:18:13,697 INFO    MainThread:3109352 [wandb_init.py:init():684] backend started and connected
+2024-10-23 23:18:13,700 INFO    MainThread:3109352 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-23 23:18:13,702 INFO    MainThread:3109352 [wandb_init.py:init():779] updated telemetry
+2024-10-23 23:18:13,726 INFO    MainThread:3109352 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-23 23:18:59,959 WARNING MainThread:3109352 [wandb_init.py:init():1256] interrupted
+Traceback (most recent call last):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+    return wi.init()
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 815, in init
+    result = run_init_handle.wait(
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-10-23 23:19:50,430 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 23:19:50,431 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Configure stats pid to 3109352
+2024-10-23 23:19:50,435 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /home/cv-07/.config/wandb/settings
+2024-10-23 23:19:50,436 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/settings
+2024-10-23 23:19:50,437 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 23:19:50,437 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 23:19:50,438 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-23 23:19:50,439 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 23:19:50,440 INFO    MainThread:3109352 [wandb_init.py:_log_setup():532] Logging user logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/offline-run-20241023_231950-bh8ktwqt/logs/debug.log
+2024-10-23 23:19:50,440 INFO    MainThread:3109352 [wandb_init.py:_log_setup():533] Logging internal logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/offline-run-20241023_231950-bh8ktwqt/logs/debug-internal.log
+2024-10-23 23:19:50,445 INFO    MainThread:3109352 [wandb_init.py:init():617] calling init triggers
+2024-10-23 23:19:50,445 INFO    MainThread:3109352 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-23 23:19:50,450 INFO    MainThread:3109352 [wandb_init.py:init():667] starting backend
+2024-10-23 23:19:50,450 INFO    MainThread:3109352 [wandb_init.py:init():671] sending inform_init request
+2024-10-23 23:19:50,453 INFO    MainThread:3109352 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-23 23:19:50,454 INFO    MainThread:3109352 [wandb_init.py:init():684] backend started and connected
+2024-10-23 23:19:50,458 INFO    MainThread:3109352 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-23 23:19:50,459 INFO    MainThread:3109352 [wandb_init.py:init():779] updated telemetry
+2024-10-23 23:19:50,484 INFO    MainThread:3109352 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-23 23:19:50,542 WARNING MsgRouterThr:3109352 [router.py:message_loop():77] message_loop has been closed
+2024-10-23 23:19:50,542 WARNING MsgRouterThr:3109352 [router.py:message_loop():77] message_loop has been closed
+2024-10-23 23:20:57,449 WARNING MainThread:3109352 [wandb_init.py:init():1256] interrupted
+Traceback (most recent call last):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 815, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-10-23 23:21:06,244 INFO    MainThread:3109352 [wandb_settings.py:_apply_login():1970] Applying login settings: {}
+2024-10-23 23:21:06,280 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 23:21:06,280 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Configure stats pid to 3109352
+2024-10-23 23:21:06,281 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /home/cv-07/.config/wandb/settings
+2024-10-23 23:21:06,282 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/settings
+2024-10-23 23:21:06,283 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 23:21:06,284 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 23:21:06,290 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-23 23:21:06,291 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 23:21:06,292 INFO    MainThread:3109352 [wandb_init.py:_log_setup():532] Logging user logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232106-ns3lbrgy/logs/debug.log
+2024-10-23 23:21:06,293 INFO    MainThread:3109352 [wandb_init.py:_log_setup():533] Logging internal logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232106-ns3lbrgy/logs/debug-internal.log
+2024-10-23 23:21:06,293 INFO    MainThread:3109352 [wandb_init.py:init():617] calling init triggers
+2024-10-23 23:21:06,299 INFO    MainThread:3109352 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-23 23:21:06,300 INFO    MainThread:3109352 [wandb_init.py:init():667] starting backend
+2024-10-23 23:21:06,301 INFO    MainThread:3109352 [wandb_init.py:init():671] sending inform_init request
+2024-10-23 23:21:06,304 INFO    MainThread:3109352 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-23 23:21:06,305 INFO    MainThread:3109352 [wandb_init.py:init():684] backend started and connected
+2024-10-23 23:21:06,308 INFO    MainThread:3109352 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-23 23:21:06,310 INFO    MainThread:3109352 [wandb_init.py:init():779] updated telemetry
+2024-10-23 23:21:06,343 INFO    MainThread:3109352 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-23 23:21:46,438 WARNING MainThread:3109352 [wandb_init.py:init():1256] interrupted
+Traceback (most recent call last):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 815, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-10-23 23:22:27,569 INFO    MainThread:3109352 [wandb_settings.py:_apply_login():1970] Applying login settings: {}
+2024-10-23 23:22:27,602 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 23:22:27,603 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Configure stats pid to 3109352
+2024-10-23 23:22:27,604 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /home/cv-07/.config/wandb/settings
+2024-10-23 23:22:27,604 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/settings
+2024-10-23 23:22:27,605 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 23:22:27,605 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 23:22:27,605 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-23 23:22:27,606 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 23:22:27,606 INFO    MainThread:3109352 [wandb_init.py:_log_setup():532] Logging user logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232227-564exz8c/logs/debug.log
+2024-10-23 23:22:27,608 INFO    MainThread:3109352 [wandb_init.py:_log_setup():533] Logging internal logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232227-564exz8c/logs/debug-internal.log
+2024-10-23 23:22:27,613 INFO    MainThread:3109352 [wandb_init.py:init():617] calling init triggers
+2024-10-23 23:22:27,614 INFO    MainThread:3109352 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-23 23:22:27,615 INFO    MainThread:3109352 [wandb_init.py:init():667] starting backend
+2024-10-23 23:22:27,620 INFO    MainThread:3109352 [wandb_init.py:init():671] sending inform_init request
+2024-10-23 23:22:27,623 INFO    MainThread:3109352 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-23 23:22:27,628 INFO    MainThread:3109352 [wandb_init.py:init():684] backend started and connected
+2024-10-23 23:22:27,632 INFO    MainThread:3109352 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-23 23:22:27,635 INFO    MainThread:3109352 [wandb_init.py:init():779] updated telemetry
+2024-10-23 23:22:27,668 INFO    MainThread:3109352 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-23 23:22:27,986 INFO    MainThread:3109352 [wandb_init.py:init():863] starting run threads in backend
+2024-10-23 23:22:58,177 INFO    MainThread:3109352 [wandb_run.py:_console_start():2465] atexit reg
+2024-10-23 23:22:58,179 INFO    MainThread:3109352 [wandb_run.py:_redirect():2313] redirect: wrap_raw
+2024-10-23 23:22:58,184 INFO    MainThread:3109352 [wandb_run.py:_redirect():2378] Wrapping output streams.
+2024-10-23 23:22:58,184 INFO    MainThread:3109352 [wandb_run.py:_redirect():2403] Redirects installed.
+2024-10-23 23:22:58,186 INFO    MainThread:3109352 [wandb_init.py:init():907] run started, returning control to user process
+2024-10-23 23:23:47,723 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 23:23:47,725 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Configure stats pid to 3109352
+2024-10-23 23:23:47,729 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /home/cv-07/.config/wandb/settings
+2024-10-23 23:23:47,730 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/settings
+2024-10-23 23:23:47,734 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 23:23:47,735 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 23:23:47,740 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-23 23:23:47,740 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 23:23:47,741 INFO    MainThread:3109352 [wandb_init.py:_log_setup():532] Logging user logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232347-tiump6cv/logs/debug.log
+2024-10-23 23:23:47,742 INFO    MainThread:3109352 [wandb_init.py:_log_setup():533] Logging internal logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232347-tiump6cv/logs/debug-internal.log
+2024-10-23 23:23:47,747 INFO    MainThread:3109352 [wandb_init.py:init():617] calling init triggers
+2024-10-23 23:23:47,752 INFO    MainThread:3109352 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-23 23:23:47,753 INFO    MainThread:3109352 [wandb_init.py:init():642] re-initializing run, found existing run on stack: 564exz8c
+2024-10-23 23:23:47,759 INFO    MainThread:3109352 [wandb_run.py:_finish():2164] finishing run ping5432121-korea-university-of-technology-and-education/titanic-pytorch/564exz8c
+2024-10-23 23:23:47,769 INFO    MainThread:3109352 [wandb_run.py:_atexit_cleanup():2428] got exitcode: 0
+2024-10-23 23:23:47,770 INFO    MainThread:3109352 [wandb_run.py:_restore():2410] restore
+2024-10-23 23:23:47,771 INFO    MainThread:3109352 [wandb_run.py:_restore():2416] restore done
+2024-10-23 23:25:01,419 WARNING MainThread:3109352 [wandb_init.py:init():1256] interrupted
+Traceback (most recent call last):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 652, in init
+    ipython.display_html(
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 452, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 393, in wrapper
+    return func(self, *args, **kwargs)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2157, in finish
+    ) -> None:
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2191, in _finish
+    hook.call()
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2440, in _atexit_cleanup
+    except KeyboardInterrupt:
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 2682, in _on_finish
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-10-23 23:25:11,644 INFO    MainThread:3109352 [wandb_settings.py:_apply_login():1970] Applying login settings: {}
+2024-10-23 23:25:11,672 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 23:25:11,674 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Configure stats pid to 3109352
+2024-10-23 23:25:11,684 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /home/cv-07/.config/wandb/settings
+2024-10-23 23:25:11,685 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/settings
+2024-10-23 23:25:11,686 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 23:25:11,687 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 23:25:11,687 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-23 23:25:11,688 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 23:25:11,688 INFO    MainThread:3109352 [wandb_init.py:_log_setup():532] Logging user logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232511-refcdzcy/logs/debug.log
+2024-10-23 23:25:11,689 INFO    MainThread:3109352 [wandb_init.py:_log_setup():533] Logging internal logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232511-refcdzcy/logs/debug-internal.log
+2024-10-23 23:25:11,689 INFO    MainThread:3109352 [wandb_init.py:init():617] calling init triggers
+2024-10-23 23:25:11,690 INFO    MainThread:3109352 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-23 23:25:11,691 INFO    MainThread:3109352 [wandb_init.py:init():667] starting backend
+2024-10-23 23:25:11,692 INFO    MainThread:3109352 [wandb_init.py:init():671] sending inform_init request
+2024-10-23 23:25:11,694 INFO    MainThread:3109352 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-23 23:25:11,695 INFO    MainThread:3109352 [wandb_init.py:init():684] backend started and connected
+2024-10-23 23:25:11,698 INFO    MainThread:3109352 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-23 23:25:11,703 INFO    MainThread:3109352 [wandb_init.py:init():779] updated telemetry
+2024-10-23 23:25:11,747 INFO    MainThread:3109352 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-23 23:26:24,302 WARNING MainThread:3109352 [wandb_init.py:init():1256] interrupted
+Traceback (most recent call last):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 815, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-10-23 23:26:25,574 INFO    MainThread:3109352 [wandb_settings.py:_apply_login():1970] Applying login settings: {}
+2024-10-23 23:26:25,610 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 23:26:25,610 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Configure stats pid to 3109352
+2024-10-23 23:26:25,615 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /home/cv-07/.config/wandb/settings
+2024-10-23 23:26:25,615 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/settings
+2024-10-23 23:26:25,616 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 23:26:25,616 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 23:26:25,617 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-23 23:26:25,617 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 23:26:25,617 INFO    MainThread:3109352 [wandb_init.py:_log_setup():532] Logging user logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232625-jul3s2le/logs/debug.log
+2024-10-23 23:26:25,619 INFO    MainThread:3109352 [wandb_init.py:_log_setup():533] Logging internal logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232625-jul3s2le/logs/debug-internal.log
+2024-10-23 23:26:25,620 INFO    MainThread:3109352 [wandb_init.py:init():617] calling init triggers
+2024-10-23 23:26:25,621 INFO    MainThread:3109352 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-23 23:26:25,622 INFO    MainThread:3109352 [wandb_init.py:init():667] starting backend
+2024-10-23 23:26:25,627 INFO    MainThread:3109352 [wandb_init.py:init():671] sending inform_init request
+2024-10-23 23:26:25,630 INFO    MainThread:3109352 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-23 23:26:25,630 INFO    MainThread:3109352 [wandb_init.py:init():684] backend started and connected
+2024-10-23 23:26:25,642 INFO    MainThread:3109352 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-23 23:26:25,644 INFO    MainThread:3109352 [wandb_init.py:init():779] updated telemetry
+2024-10-23 23:26:25,674 INFO    MainThread:3109352 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-23 23:27:55,686 ERROR   MainThread:3109352 [wandb_init.py:init():838] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-23 23:27:55,691 ERROR   MainThread:3109352 [wandb_init.py:init():1262] error in wandb.init()
+Traceback (most recent call last):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 844, in init
+    # Shutdown the backend and get rid of the logger
+wandb.errors.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-23 23:28:24,981 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Current SDK version is 0.18.3
+2024-10-23 23:28:24,982 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Configure stats pid to 3109352
+2024-10-23 23:28:24,986 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /home/cv-07/.config/wandb/settings
+2024-10-23 23:28:24,992 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/settings
+2024-10-23 23:28:24,997 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-23 23:28:25,002 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-23 23:28:25,007 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-23 23:28:25,012 INFO    MainThread:3109352 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-23 23:28:25,014 INFO    MainThread:3109352 [wandb_init.py:_log_setup():532] Logging user logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/offline-run-20241023_232824-wy0r86v9/logs/debug.log
+2024-10-23 23:28:25,019 INFO    MainThread:3109352 [wandb_init.py:_log_setup():533] Logging internal logs to /data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/offline-run-20241023_232824-wy0r86v9/logs/debug-internal.log
+2024-10-23 23:28:25,024 INFO    MainThread:3109352 [wandb_init.py:init():617] calling init triggers
+2024-10-23 23:28:25,030 INFO    MainThread:3109352 [wandb_init.py:init():624] wandb.init called with sweep_config: {}
+config: {}
+2024-10-23 23:28:25,030 INFO    MainThread:3109352 [wandb_init.py:init():667] starting backend
+2024-10-23 23:28:25,032 INFO    MainThread:3109352 [wandb_init.py:init():671] sending inform_init request
+2024-10-23 23:28:25,035 INFO    MainThread:3109352 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-23 23:28:25,036 INFO    MainThread:3109352 [wandb_init.py:init():684] backend started and connected
+2024-10-23 23:28:25,044 INFO    MainThread:3109352 [wandb_run.py:_label_probe_notebook():1346] probe notebook
+2024-10-23 23:28:25,046 INFO    MainThread:3109352 [wandb_init.py:init():779] updated telemetry
+2024-10-23 23:28:25,072 INFO    MainThread:3109352 [wandb_init.py:init():812] communicating run to backend with 90.0 second timeout
+2024-10-23 23:28:53,384 WARNING MainThread:3109352 [wandb_init.py:init():1256] interrupted
+Traceback (most recent call last):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1252, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 815, in init
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/data/2_data_server/cv-07/anaconda3/envs/link_dl/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

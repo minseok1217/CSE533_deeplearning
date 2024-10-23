@@ -1,0 +1,13 @@
+{"time":"2024-10-23T23:22:27.625927847+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T23:22:27.625949258+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232227-564exz8c/logs/debug-core.log"}
+{"time":"2024-10-23T23:22:27.626107629+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T23:22:27.635390393+09:00","level":"INFO","msg":"created new stream","id":"564exz8c"}
+{"time":"2024-10-23T23:22:27.635412856+09:00","level":"INFO","msg":"stream: started","id":"564exz8c"}
+{"time":"2024-10-23T23:22:27.635447392+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"564exz8c"}}
+{"time":"2024-10-23T23:22:27.635492427+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"564exz8c"}}
+{"time":"2024-10-23T23:22:27.635465827+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"564exz8c"}}
+{"time":"2024-10-23T23:22:27.989638454+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T23:22:27.997211887+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T23:23:47.773089751+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T23:23:47.773389691+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T23:23:50.737869358+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

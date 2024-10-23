@@ -1,0 +1,8 @@
+{"time":"2024-10-23T23:11:30.874872956+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T23:11:30.874900187+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_231130-wdc3esog/logs/debug-core.log"}
+{"time":"2024-10-23T23:11:30.875071804+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T23:11:30.886999607+09:00","level":"INFO","msg":"created new stream","id":"wdc3esog"}
+{"time":"2024-10-23T23:11:30.887051015+09:00","level":"INFO","msg":"stream: started","id":"wdc3esog"}
+{"time":"2024-10-23T23:11:30.887065532+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wdc3esog"}}
+{"time":"2024-10-23T23:11:30.88709585+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"wdc3esog"}}
+{"time":"2024-10-23T23:11:30.887102352+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wdc3esog"}}

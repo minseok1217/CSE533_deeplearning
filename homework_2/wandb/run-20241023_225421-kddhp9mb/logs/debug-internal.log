@@ -1,0 +1,33 @@
+{"time":"2024-10-23T22:54:21.483226222+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T22:54:21.483253815+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_225421-kddhp9mb/logs/debug-core.log"}
+{"time":"2024-10-23T22:54:21.544849873+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T22:54:21.561764339+09:00","level":"INFO","msg":"created new stream","id":"kddhp9mb"}
+{"time":"2024-10-23T22:54:21.561830545+09:00","level":"INFO","msg":"stream: started","id":"kddhp9mb"}
+{"time":"2024-10-23T22:54:21.561887924+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"kddhp9mb"}}
+{"time":"2024-10-23T22:54:21.5618961+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"kddhp9mb"}}
+{"time":"2024-10-23T22:54:21.561880219+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kddhp9mb"}}
+{"time":"2024-10-23T22:54:21.888786145+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T22:54:21.90008238+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T22:54:22.118148799+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-23T22:54:22.118176572+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-23T22:54:22.118183324+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-23T22:54:22.118188394+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-23T22:54:22.118192973+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-23T22:54:22.118197862+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-23T22:54:22.11820225+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-23T22:54:22.226370849+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-23T22:54:22.271759888+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-23T22:54:22.99913057+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-23T22:54:23.000199644+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-23T22:54:23.712826341+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-23T22:54:23.714678505+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-23T22:54:30.692243234+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-23T22:54:30.721425162+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T22:54:30.724231603+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T22:54:34.112993224+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T22:54:35.553269731+09:00","level":"INFO","msg":"stream: closing","id":"kddhp9mb"}
+{"time":"2024-10-23T22:54:35.55329019+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"kddhp9mb"}}
+{"time":"2024-10-23T22:54:35.553306701+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kddhp9mb"}}
+{"time":"2024-10-23T22:54:35.553407453+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"kddhp9mb"}}
+{"time":"2024-10-23T22:54:35.558721675+09:00","level":"INFO","msg":"stream: closed","id":"kddhp9mb"}
+{"time":"2024-10-23T22:54:35.723546903+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

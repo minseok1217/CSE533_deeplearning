@@ -1,0 +1,8 @@
+{"time":"2024-10-23T23:08:54.694082764+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T23:08:54.694104515+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_230854-fyy7kvzk/logs/debug-core.log"}
+{"time":"2024-10-23T23:08:54.694269128+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T23:08:54.707953795+09:00","level":"INFO","msg":"created new stream","id":"fyy7kvzk"}
+{"time":"2024-10-23T23:08:54.707996676+09:00","level":"INFO","msg":"stream: started","id":"fyy7kvzk"}
+{"time":"2024-10-23T23:08:54.70805117+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"fyy7kvzk"}}
+{"time":"2024-10-23T23:08:54.708048976+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fyy7kvzk"}}
+{"time":"2024-10-23T23:08:54.708076528+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"fyy7kvzk"}}

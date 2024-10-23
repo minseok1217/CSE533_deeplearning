@@ -1,0 +1,54 @@
+FamilySize 열 생성 완료!
+Epoch 1/50, Training Loss: 0.668764066696167, Validation Loss: 0.6648720055818558
+Epoch 2/50, Training Loss: 0.6356676936149597, Validation Loss: 0.6376882990201315
+Epoch 3/50, Training Loss: 0.6308176385031806, Validation Loss: 0.6170910348494848
+Epoch 4/50, Training Loss: 0.5927403774526384, Validation Loss: 0.5931889191269875
+Epoch 5/50, Training Loss: 0.5658387872907851, Validation Loss: 0.5506983200709025
+Epoch 6/50, Training Loss: 0.5379236433241102, Validation Loss: 0.48165132353703183
+Epoch 7/50, Training Loss: 0.5165919330384996, Validation Loss: 0.47454453259706497
+Epoch 8/50, Training Loss: 0.49637125200695464, Validation Loss: 0.47558894753456116
+Epoch 9/50, Training Loss: 0.4827121655146281, Validation Loss: 0.451638317356507
+Epoch 10/50, Training Loss: 0.4735823247167799, Validation Loss: 0.4068221723039945
+Epoch 11/50, Training Loss: 0.4683792617585924, Validation Loss: 0.4112495208779971
+Epoch 12/50, Training Loss: 0.46363413631916045, Validation Loss: 0.4272504610319932
+Epoch 13/50, Training Loss: 0.4541651725769043, Validation Loss: 0.4070768194893996
+Epoch 14/50, Training Loss: 0.46953349974420333, Validation Loss: 0.4093316085636616
+Epoch 15/50, Training Loss: 0.45964105592833626, Validation Loss: 0.492271825671196
+Epoch 16/50, Training Loss: 0.4576913363403744, Validation Loss: 0.48498542110125226
+Epoch 17/50, Training Loss: 0.4783454348643621, Validation Loss: 0.38664550334215164
+Epoch 18/50, Training Loss: 0.46147099766466354, Validation Loss: 0.40722016617655754
+Epoch 19/50, Training Loss: 0.45483960774209764, Validation Loss: 0.427100095897913
+Epoch 20/50, Training Loss: 0.4380864000982708, Validation Loss: 0.3731858345369498
+Epoch 21/50, Training Loss: 0.44247722261481814, Validation Loss: 0.35371250038345653
+Epoch 22/50, Training Loss: 0.441273620724678, Validation Loss: 0.35207344219088554
+Epoch 23/50, Training Loss: 0.44020784497261045, Validation Loss: 0.34796119667589664
+Epoch 24/50, Training Loss: 0.4333785563707352, Validation Loss: 0.3904886767268181
+Epoch 25/50, Training Loss: 0.43604868551095327, Validation Loss: 0.38839370260636014
+Epoch 26/50, Training Loss: 0.43776167432467145, Validation Loss: 0.42493176087737083
+Epoch 27/50, Training Loss: 0.43678045603964066, Validation Loss: 0.3526974705358346
+Epoch 28/50, Training Loss: 0.4355919344557656, Validation Loss: 0.3569570941229661
+Epoch 29/50, Training Loss: 0.43855292598406476, Validation Loss: 0.41040483365456265
+Epoch 30/50, Training Loss: 0.4210338569349713, Validation Loss: 0.37802230070034665
+Epoch 31/50, Training Loss: 0.435241194234954, Validation Loss: 0.3603047790626685
+Epoch 32/50, Training Loss: 0.4285249706771639, Validation Loss: 0.34033032196263474
+Epoch 33/50, Training Loss: 0.4264296654197905, Validation Loss: 0.346612428004543
+Epoch 34/50, Training Loss: 0.41949917011790805, Validation Loss: 0.35143343980113667
+Epoch 35/50, Training Loss: 0.431694761912028, Validation Loss: 0.34733225032687187
+Epoch 36/50, Training Loss: 0.43723889655537074, Validation Loss: 0.3737555257976055
+Epoch 37/50, Training Loss: 0.4334557205438614, Validation Loss: 0.3708478858073552
+Epoch 38/50, Training Loss: 0.4263048718372981, Validation Loss: 0.3911974976460139
+Epoch 39/50, Training Loss: 0.43370198872354293, Validation Loss: 0.36091950349509716
+Epoch 40/50, Training Loss: 0.44449786014027065, Validation Loss: 0.35669542973240215
+Epoch 41/50, Training Loss: 0.4203852415084839, Validation Loss: 0.3531740630666415
+Epoch 42/50, Training Loss: 0.41906262901094227, Validation Loss: 0.3421865937610467
+Epoch 43/50, Training Loss: 0.4135424299372567, Validation Loss: 0.3710002340376377
+Epoch 44/50, Training Loss: 0.43397049605846405, Validation Loss: 0.35197511066993076
+Epoch 45/50, Training Loss: 0.4242470340596305, Validation Loss: 0.3850459059079488
+Epoch 46/50, Training Loss: 0.42165212796794044, Validation Loss: 0.38714869941274327
+Epoch 47/50, Training Loss: 0.41634872125254735, Validation Loss: 0.35418983673055965
+Epoch 48/50, Training Loss: 0.4152222351895438, Validation Loss: 0.3524120934307575
+Epoch 49/50, Training Loss: 0.423439455529054, Validation Loss: 0.36782318105300266
+Epoch 50/50, Training Loss: 0.42224019898308646, Validation Loss: 0.39269722004731494
+[TEST DATASET]
+input shape: torch.Size([418, 6])
+예측 결과가 submission_2.csv에 저장되었습니다.

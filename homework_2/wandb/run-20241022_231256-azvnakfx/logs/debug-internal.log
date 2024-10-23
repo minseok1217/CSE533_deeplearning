@@ -1,0 +1,23 @@
+{"time":"2024-10-22T23:12:56.224342554+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-22T23:12:56.224367872+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241022_231256-azvnakfx/logs/debug-core.log"}
+{"time":"2024-10-22T23:12:56.272283295+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-22T23:12:56.292370253+09:00","level":"INFO","msg":"created new stream","id":"azvnakfx"}
+{"time":"2024-10-22T23:12:56.292417393+09:00","level":"INFO","msg":"stream: started","id":"azvnakfx"}
+{"time":"2024-10-22T23:12:56.292464563+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"azvnakfx"}}
+{"time":"2024-10-22T23:12:56.292468791+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"azvnakfx"}}
+{"time":"2024-10-22T23:12:56.292492095+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"azvnakfx"}}
+{"time":"2024-10-22T23:12:57.190954166+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-22T23:12:57.201929967+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-22T23:12:57.498126694+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-22T23:13:00.861911441+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-22T23:13:00.902198651+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-22T23:13:01.171280618+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-22T23:13:01.219368198+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-22T23:13:01.221710412+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-22T23:13:04.303912057+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-22T23:13:05.622090138+09:00","level":"INFO","msg":"stream: closing","id":"azvnakfx"}
+{"time":"2024-10-22T23:13:05.622116058+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"azvnakfx"}}
+{"time":"2024-10-22T23:13:05.622134042+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"azvnakfx"}}
+{"time":"2024-10-22T23:13:05.6221487+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"azvnakfx"}}
+{"time":"2024-10-22T23:13:05.62777289+09:00","level":"INFO","msg":"stream: closed","id":"azvnakfx"}
+{"time":"2024-10-22T23:13:06.221174877+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}

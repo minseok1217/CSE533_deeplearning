@@ -1,0 +1,7 @@
+{"time":"2024-10-23T23:19:50.531328918+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T23:19:50.531363214+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/offline-run-20241023_231950-bh8ktwqt/logs/debug-core.log"}
+{"time":"2024-10-23T23:19:50.539850003+09:00","level":"INFO","msg":"created new stream","id":"bh8ktwqt"}
+{"time":"2024-10-23T23:19:50.539892033+09:00","level":"INFO","msg":"stream: started","id":"bh8ktwqt"}
+{"time":"2024-10-23T23:19:50.539942118+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"bh8ktwqt"}}
+{"time":"2024-10-23T23:19:50.539982785+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bh8ktwqt"}}
+{"time":"2024-10-23T23:19:50.540035325+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"bh8ktwqt"}}

@@ -1,0 +1,10 @@
+{"time":"2024-10-23T00:40:34.221150007+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T00:40:34.221176757+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_004031-1v5dlugu/logs/debug-core.log"}
+{"time":"2024-10-23T00:40:34.221311714+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T00:40:34.231249579+09:00","level":"INFO","msg":"created new stream","id":"1v5dlugu"}
+{"time":"2024-10-23T00:40:34.231280057+09:00","level":"INFO","msg":"stream: started","id":"1v5dlugu"}
+{"time":"2024-10-23T00:40:34.231317829+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"1v5dlugu"}}
+{"time":"2024-10-23T00:40:34.23132897+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"1v5dlugu"}}
+{"time":"2024-10-23T00:40:34.231350301+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"1v5dlugu"}}
+{"time":"2024-10-23T00:40:34.567988725+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T00:40:34.579180955+09:00","level":"INFO","msg":"Starting system monitor"}

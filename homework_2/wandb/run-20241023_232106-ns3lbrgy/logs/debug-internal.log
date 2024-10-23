@@ -1,0 +1,8 @@
+{"time":"2024-10-23T23:21:06.306754463+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T23:21:06.306781395+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_232106-ns3lbrgy/logs/debug-core.log"}
+{"time":"2024-10-23T23:21:06.306949584+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T23:21:06.314165507+09:00","level":"INFO","msg":"created new stream","id":"ns3lbrgy"}
+{"time":"2024-10-23T23:21:06.314185525+09:00","level":"INFO","msg":"stream: started","id":"ns3lbrgy"}
+{"time":"2024-10-23T23:21:06.3142092+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"ns3lbrgy"}}
+{"time":"2024-10-23T23:21:06.314231352+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ns3lbrgy"}}
+{"time":"2024-10-23T23:21:06.314224619+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"ns3lbrgy"}}

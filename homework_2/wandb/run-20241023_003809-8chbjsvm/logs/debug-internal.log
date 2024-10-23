@@ -1,0 +1,21 @@
+{"time":"2024-10-23T00:38:12.234827526+09:00","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-23T00:38:12.234857042+09:00","level":"INFO","msg":"created symlink","path":"/data/2_data_server/cv-07/link_dl/_02_homeworks/homework_2/wandb/run-20241023_003809-8chbjsvm/logs/debug-core.log"}
+{"time":"2024-10-23T00:38:12.235031544+09:00","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-23T00:38:12.252532958+09:00","level":"INFO","msg":"created new stream","id":"8chbjsvm"}
+{"time":"2024-10-23T00:38:12.252562284+09:00","level":"INFO","msg":"stream: started","id":"8chbjsvm"}
+{"time":"2024-10-23T00:38:12.252578545+09:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"8chbjsvm"}}
+{"time":"2024-10-23T00:38:12.252603482+09:00","level":"INFO","msg":"handler: started","stream_id":{"value":"8chbjsvm"}}
+{"time":"2024-10-23T00:38:12.252611197+09:00","level":"INFO","msg":"sender: started","stream_id":{"value":"8chbjsvm"}}
+{"time":"2024-10-23T00:38:12.614177294+09:00","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-23T00:38:12.626243735+09:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-23T00:38:14.820583558+09:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-10-23T00:40:31.741501201+09:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-10-23T00:40:31.7921808+09:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-23T00:40:31.794893298+09:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-23T00:40:32.827091672+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-23T00:40:34.165715556+09:00","level":"INFO","msg":"stream: closing","id":"8chbjsvm"}
+{"time":"2024-10-23T00:40:34.16574398+09:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"8chbjsvm"}}
+{"time":"2024-10-23T00:40:34.16576492+09:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"8chbjsvm"}}
+{"time":"2024-10-23T00:40:34.165946185+09:00","level":"INFO","msg":"sender: closed","stream_id":{"value":"8chbjsvm"}}
+{"time":"2024-10-23T00:40:34.171778725+09:00","level":"INFO","msg":"stream: closed","id":"8chbjsvm"}
+{"time":"2024-10-23T00:40:36.794696906+09:00","level":"ERROR","msg":"monitor: gpu: timeout waiting for process to exit"}
